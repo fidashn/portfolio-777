@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #F0D9FF;
+  --secondary-color: rgb(240, 208, 146);
+  --menu-speed: 0.75s;
+  --color-1:#fff;
+  --basic-color:black;
+  --text-color:#cfb3f0 ;
+  
+  }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@100&display=swap');
+
+body {
+  display: grid;
+  background-color:var(--primary-color);
+  color:var(--text-color) ;
+  height: 100vh;
+  width:100%;
+}
+

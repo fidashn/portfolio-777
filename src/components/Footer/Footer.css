@@ -1,0 +1,35 @@
+.footer-inner {
+  height: 50px;
+  background-color: var(--basic-color);
+  opacity:0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color:var(--text-color);
+  display: flex;
+  flex-direction: row;
+  float: inline-end;
+  position: sticky;
+  }
+
+  .fas{
+    transform: translateX(-1vmin);
+  }
+
+
+.fa-2x {
+  color:var(--text-color) ;
+}
+
+.icons {
+  width: 15vmin;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+  .footer-inner  {
+    flex-direction: column;
+    height: 30vmin;
+  }
+}
